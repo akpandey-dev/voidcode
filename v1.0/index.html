@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoidCode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="head-container">
+    <h6 class="heading">VoidCode ... to code...</h6>
+<select id="lang-selector" name="language" title="Select programming language">
+  <option value="web">HTML + JS + CSS</option>
+  <option value="js">JavaScript</option>
+  <option value="ts">TypeScript</option>
+  <option value="css">CSS</option>
+  <option value="python">Python</option>
+  <option value="java">Java</option>
+  <option value="clang">C</option>
+  <option value="cpplang">C++</option>
+  <option value="go">Go</option>
+  <option value="rust">Rust</option>
+  <option value="kotlin">Kotlin</option>
+  <option value="php">PHP</option>
+  <option value="ruby">Ruby</option>
+  <option value="swift">Swift</option>
+  <option value="sql">SQL</option>
+</select>
+
+  </div>
+  <hr>
+
+  <div class="toolbar">
+    <button type="button" class="toolbar-btn" data-menu="fileMenu">File</button>
+    <button type="button" class="toolbar-btn" data-menu="editMenu">Edit</button>
+    <button type="button" class="toolbar-btn" data-menu="viewMenu">View</button>
+    <button type="button" class="toolbar-btn" data-menu="moreMenu">More</button>
+    <button type="button" class="toolbar-btn" data-menu="helpMenu">Help</button>
+    <button type="button" class="toolbar-btn" data-menu="aboutMenu">About</button>
+    
+    <!-- Popup menus -->
+    <div class="popup-menu" id="fileMenu">
+      <ul>
+        <li>New File</li>
+        <li>Open Project</li>
+        <li>Save</li>
+        <li>Exit</li>
+      </ul>
+    </div>
+    <div class="popup-menu" id="editMenu">
+      <ul>
+        <li>Undo</li>
+        <li>Redo</li>
+        <li>Cut</li>
+        <li>Copy</li>
+        <li>Paste</li>
+        <li>Clear</li>
+        <li>Find</li>
+        <li>Replace</li>
+      </ul>
+    </div>
+    <div class="popup-menu" id="viewMenu">
+      <ul>
+        <li>Word wrap</li>
+        <li>Font Size</li>
+        <li>Fullscreen</li>
+        <li>Theme</li>
+        <li>Go To Line</li>
+        <li>Run Html</li>
+        <li>Run In Iframe</li>
+      </ul>
+    </div>
+  <div class="popup-menu" id="moreMenu">
+  <ul>
+    <li>Command Palette</li>
+    <li>Settings</li>
+    <li>Reload IDE</li>
+  </ul>
+</div>
+
+    <div class="popup-menu" id="helpMenu">
+      <ul>
+        <li>Documentation</li>
+        <li>Keyboard Shortcuts</li>
+      
+      </ul>
+    </div>
+    <div class="popup-menu" id="aboutMenu">
+      <ul>
+        <li>About VoidCode</li>
+        <li>Version 1.0</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fileName"></div><!-- stays empty until user opens/creates a file -->
+  <div class="editor"></div>
+  <iframe class="Iframe"></iframe>
+  <input type="file" title="File picker" id="filePicker" placeholder="File is imported through this input..." accept=".html,.htm,.txt,.js,.css,.py,.java,.C,.Cplus">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
