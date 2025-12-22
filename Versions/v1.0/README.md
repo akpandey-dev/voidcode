@@ -33,7 +33,7 @@ It is intentionally designed to remain simple while exposing enough internal log
 
 ## Core Features
 
-- Ace Editor integration with:
+- Monaco Editor integration with:
   - Syntax highlighting
   - Autocompletion
   - Snippets

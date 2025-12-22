@@ -2,7 +2,7 @@
 
 VoidCode Monaco — a feature-rich, web-based code editor built on the Monaco engine. Supports multiple languages, syntax highlighting, and advanced editing tools, making it ideal for coding, testing(HTML), and prototyping directly in the browser.
 
-VoidCode is a compact, browser-based code editor built using HTML, CSS, and JavaScript, powered internally by the Monaco Editor engine.
+VoidCode Monaco is a compact, browser-based code editor built using HTML, CSS, and JavaScript, powered internally by the Monaco Editor engine.
 
 It is designed for learners, hobbyists, and developers who want a **fast, portable, low-storage editor** for writing and testing code without installing heavy IDEs.
 
@@ -15,7 +15,7 @@ VoidCode runs entirely on the client side, works offline, and focuses on clarity
 ## Key Highlights
 
 - Lightweight web-based IDE
-- Powered by Ace Editor
+- Powered by Monaco Editor
 - Multi-language syntax support
 - No backend or server required
 - Fully offline-capable
@@ -35,15 +35,10 @@ VoidCode runs entirely on the client side, works offline, and focuses on clarity
 - more...
 ---
 
-## Project Structure
+### Repository Structure
 
-VoidCode/
-├─ README.md  
-├─ .gitignore  
-└─ Versions/  
-
-
-All released and experimental versions are organized inside the `Versions` directory to keep the repository clean and versioned.
+All project versions are organized under the `Versions/` directory.  
+Each version folder contains its own documentation explaining available formats, features, and usage instructions.
 
 ---
 
@@ -53,7 +48,7 @@ No installation required.
 
 1. Open a version inside `Versions/`
 2. Choose **single-file** or **modular**
-3. Open `index.html` in any modern browser
+3. Open the HTML file in any modern browser
 4. Start coding immediately
 
 ---
@@ -69,12 +64,16 @@ No installation required.
 
 ## Philosophy
 
-VoidCode is built with the belief that:
+VoidCode Monaco is built with the belief that:
 - Tools should be accessible
 - Learning should be frictionless
 - Curiosity should not require expensive hardware or software
 
 This project is open for everyone — beginners, explorers, and contributors alike.
+
+---
+
+> The Monaco Distribution of Voidcode is best suited for PCs and Computers. For Phones and Tabs, consider using Voidcode Ace.
 
 ---
 
