@@ -1,9 +1,9 @@
-# VoidCode – v1.0
+# VoidCode Monaco – v1.0
 
 Version 1.0 is the **first stable public release** of VoidCode Monaco distribution.
 
 This version delivers a functional, lightweight web-based code editor with multi-language support, file operations, and basic execution for HTML.
-
+It is especially designed for users who want coding instantly with basic syntax highlighting and autocompletion.
 It is intentionally designed to remain simple while exposing enough internal logic for learning and extension.
 
 ---
@@ -12,7 +12,7 @@ It is intentionally designed to remain simple while exposing enough internal log
 
 ### 1. Standalone Build (`single-file/`)
 
-**VoidCodeIDE_dM_v1.0.html**
+**voidcode-ace.html**
 
 - Entire editor contained in a single HTML file
 - Includes UI, styles, logic, and Ace Editor integration
