@@ -16,7 +16,7 @@ It runs entirely on the client side, works offline(once cached), and focuses on 
 - Powered by Ace Editor
 - Multi-language syntax support
 - No backend or server required
-- Fully offline-capable
+- Offline-capable if cached
 - Keyboard shortcuts and command-driven workflow
 - Designed for learning, tinkering, and extension
 
