@@ -44,10 +44,11 @@ Each version folder contains its own documentation explaining available formats,
 
 No installation required.
 
-1. Open a version inside `versions/`
-2. Choose **single-file** or **modular**
-3. Open the HTML file in any modern browser
-4. Start coding immediately
+1. Clone the repository(or download the specific file(s))
+2. Open a version inside `versions/`
+3. Choose **single-file** or **modular**
+4. Open the HTML file in any modern browser
+5. Start coding immediately
 
 ---
 
@@ -81,4 +82,4 @@ Open-source for learning, modification, and experimentation.
 
 ---
 > 🌐 **Try Live**  
-> Try it here: https://akp-labs.github.io/voidcode-ace
+> Try it here: https://akpandey-dev.github.io/voidcode-ace
