@@ -33,7 +33,7 @@ VoidCode runs entirely on the client side, works offline(once cached), and focus
 - more...
 ---
 
-## Repository Structure
+## Directory Structure
 
 All project versions are organized under the `versions/` directory.  
 Each version folder contains its own documentation explaining available formats, features, and usage instructions.
@@ -50,6 +50,8 @@ No installation required.
 4. Open the HTML file in any modern browser
 5. Start coding immediately
 
+> The Monaco Distribution of Voidcode is best suited for PCs and Computers. For Phones and Tabs, consider using Voidcode Ace.
+
 ---
 
 ## Technology Stack
@@ -61,21 +63,6 @@ No installation required.
 
 ---
 
-## Philosophy
-
-VoidCode Monaco is built with the belief that:
-- Tools should be accessible
-- Learning should be frictionless
-- Curiosity should not require expensive hardware or software
-
-This project is open for everyone — beginners, explorers, and contributors alike.
-
----
-
-> The Monaco Distribution of Voidcode is best suited for PCs and Computers. For Phones and Tabs, consider using Voidcode Ace.
-
----
-
 ## License
 
 Open-source for learning, modification, and experimentation.
@@ -83,4 +70,4 @@ Open-source for learning, modification, and experimentation.
 
 ---
 > 🌐 **Try Live**  
-> Try it here: https://akpandey-dev.github.io/voidcode-monaco
+> Try it here: https://akpandey-dev.github.io/voidcode

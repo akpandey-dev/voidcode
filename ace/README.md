@@ -33,7 +33,7 @@ It runs entirely on the client side, works offline(once cached), and focuses on 
 - more...
 ---
 
-## Repository Structure
+## Directory Structure
 
 All project versions are organized under the `versions/` directory.  
 Each version folder contains its own documentation explaining available formats, features, and usage instructions.
@@ -50,6 +50,8 @@ No installation required.
 4. Open the HTML file in any modern browser
 5. Start coding immediately
 
+> The Ace Distribution of Voidcode is best suited for Phones and Tabs. For PC and Computers, consider using Voidcode Monaco.
+
 ---
 
 ## Technology Stack
@@ -61,25 +63,10 @@ No installation required.
 
 ---
 
-## Philosophy
-
-VoidCode Ace is built with the belief that:
-- Tools should be accessible
-- Learning should be frictionless
-- Curiosity should not require expensive hardware or software
-
-This project is open for everyone — beginners, explorers, and contributors alike.
-
----
-
-> The Ace Distribution of Voidcode is best suited for Phones and Tabs. For PC and Computers, consider using Voidcode Monaco.
-
----
-
 ## License
 
 Open-source for learning, modification, and experimentation.
 
 ---
 > 🌐 **Try Live**  
-> Try it here: https://akpandey-dev.github.io/voidcode-ace
+> Try it here: https://akpandey-dev.github.io/voidcode
